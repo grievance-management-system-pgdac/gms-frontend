@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8081',
+  baseURL: 'https://gms-backend-production-2cd2.up.railway.app/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
