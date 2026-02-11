@@ -13,7 +13,7 @@ import EmployeeHelp from "./pages/EmployeeHelp";
 import EmployeeProfile from "./pages/EmployeeProfile";
 import GrievanceDetails from './pages/GrievanceDetails';
 // import EmployeeLegalReferences from "./pages/EmployeeLegalReferences";
-import EmployeeLegalReferences from "./pages/EmployeeLEgalReferences";
+import EmployeeLegalReferences from "./pages/EmployeeLegalReferences";
 
 // Officer pages
 import OfficerDashboard from "./pages/OfficerDashboard-simplified";
