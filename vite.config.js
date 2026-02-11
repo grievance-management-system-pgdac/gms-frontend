@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:8081',
+        target: 'https://gms-backend-production-2cd2.up.railway.app/api',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
